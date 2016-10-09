@@ -1,6 +1,6 @@
 ## Overview
 
-Rough website quickly put together to server as a landing spot for the [Ocular Engine](https://www.github.com/ssell/OcularEngine) project.
+Rough website quickly put together to serve as a landing spot for the [Ocular Engine](https://www.github.com/ssell/OcularEngine) project.
 
 Might serve as a good lesson on how _not_ to do web development.
 
@@ -8,7 +8,7 @@ Might serve as a good lesson on how _not_ to do web development.
 
 ### showdownjs
 
-[https://www.github.com/showdownjs/showdown](https://www.github.com/showdownjs/showdown)
+[https://github.com/showdownjs/showdown](https://github.com/showdownjs/showdown)
 
 Used for markdown-to-html conversion.
 
@@ -17,6 +17,12 @@ Used for markdown-to-html conversion.
 [https://github.com/qrohlf/trianglify](https://github.com/qrohlf/trianglify)
 
 Used for generating the polygon background.
+
+### highlight.js
+
+[https://github.com/isagalaev/highlight.js](https://github.com/isagalaev/highlight.js)
+
+Used for syntax highlighting of `<pre><code>` blocks.
 
 ## Contact
 

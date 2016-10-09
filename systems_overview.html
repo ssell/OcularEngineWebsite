@@ -5,27 +5,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js"></script>
     <script src="https://cdn.rawgit.com/showdownjs/showdown/1.4.3/dist/showdown.min.js"></script>
-
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
     
     <script src="source/scripts/backtrianglify.js"></script>
     <script src="source/scripts/markdown.js"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function()
-        {
-            loadMarkdown("overview_general", "overview_general");
-            loadMarkdown("overview_resources", "overview_resources");
-            
-            $('code').each(function(i, block) {
-                hljs.highlightBlock(block);
-            });
-        });
-    </script>
+    <script src="source/scripts/syntaxhighlight.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
     <link href="/source/css/style.css" rel="stylesheet">
+    <link href="/source/css/codeformat.css" rel="stylesheet">
 </head>
 <body>
 
@@ -43,11 +31,11 @@
     </div>
 
     <div class="content_body">
-        <div id="overview_general"></div>
+        <div id="overview_general" class="markdown"></div>
     </div>
 
     <div class="content_body">
-        <div id="overview_resources"></div>
+        <div id="overview_resources" class="markdown"></div>
     </div>
 
     <div id="footer">

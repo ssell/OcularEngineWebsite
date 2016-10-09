@@ -16,3 +16,4 @@ This website makes use of the following libraries:
 
 * [showdownjs](https://github.com/showdownjs/showdown) for markdown-to-html conversion
 * [trianglify](https://github.com/qrohlf/trianglify) for the polygon background
+* [highlight.js](https://github.com/isagalaev/highlight.js) for syntax highlighting

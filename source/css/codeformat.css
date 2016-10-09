@@ -1,54 +1,51 @@
-figure
+code
 {
-    width: 90%;
-    overflow: auto;
+    background-color: rgba(35, 35, 35, 0.2);
+    padding: 0.2em;
+    border-radius: 3px;
 }
 
-.highlight table
+.hljs
 {
-    margin-left: 5px;
-    padding: 0px;
-    width: 800px;
-    overflow: auto;
+    color: rgba(238, 238, 238, 1);
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background-color: rgba(35, 35, 35, 0.9);
+    margin: 1em;
 }
 
-.gutter,.code
+.hljs-string
 {
-    font-family: 'Source Code Pro', ;
-    background-color: rgb(52, 43, 33);
+    color: rgba(214,157,133,1);
 }
 
-.gutter
+.hljs-comment
 {
-    border-width: 0px;
-    color: rgb(43, 145, 175);
-    text-align: right;
+    color: rgba(87, 166, 74, 1);
 }
 
-.code
+.hljs-keyword, .hljs-class
 {
-    border-width: 0px;
-    color: #F5F5F5;
-    width: 100%;
-    overflow-x: auto !important;
+    color: rgba(78, 201, 171, 1);
 }
 
-.keyword
+.hljs-literal
 {
-    color: rgb(43, 145, 175);
+  color: rgba(86, 156, 245, 1);
 }
 
-.string
+.hljs-number
 {
-    color: rgb(214, 157, 133);
+  color: rgba(181, 206, 168, 1);
 }
 
-.comment
+.hljs-title
 {
-    color: rgb(67, 166, 66);
+
 }
 
-.code .title
+.hljs-tag
 {
-    color: rgb(78, 201, 176);
+
 }

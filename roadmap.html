@@ -8,15 +8,6 @@
     <script src="source/scripts/backtrianglify.js"></script>
     <script src="source/scripts/markdown.js"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function()
-        {
-            loadMarkdown("roadmap_overview", "roadmap_overview");
-            loadMarkdown("roadmap_current", "roadmap_current");
-            loadMarkdown("roadmap_future", "roadmap_future");
-        });
-    </script>
-
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
     <link href="/source/css/style.css" rel="stylesheet">
 </head>
@@ -36,15 +27,15 @@
     </div>
 
     <div class="content_body">
-        <div id="roadmap_overview"></div>
+        <div id="roadmap_overview" class="markdown"></div>
     </div>
 
     <div class="content_body">
-        <div id="roadmap_current"></div>
+        <div id="roadmap_current" class="markdown"></div>
     </div>
 
     <div class="content_body">
-        <div id="roadmap_future"></div>
+        <div id="roadmap_future" class="markdown"></div>
     </div>
 
     <div id="footer">

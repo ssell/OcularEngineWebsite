@@ -1,3 +1,6 @@
+// Creates, and automatically updates, the polygon background using the trianglify library.
+// Dependency on: https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js
+
 function createBackground(element)
 {
     var pattern = Trianglify(

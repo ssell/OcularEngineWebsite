@@ -17,3 +17,7 @@ Used for markdown-to-html conversion.
 [https://github.com/qrohlf/trianglify](https://github.com/qrohlf/trianglify)
 
 Used for generating the polygon background.
+
+## Contact
+
+See [http://www.vertexfragment.com/home/about.html](http://www.vertexfragment.com/home/about.html)

@@ -1,0 +1,54 @@
+figure
+{
+    width: 90%;
+    overflow: auto;
+}
+
+.highlight table
+{
+    margin-left: 5px;
+    padding: 0px;
+    width: 800px;
+    overflow: auto;
+}
+
+.gutter,.code
+{
+    font-family: 'Source Code Pro', ;
+    background-color: rgb(52, 43, 33);
+}
+
+.gutter
+{
+    border-width: 0px;
+    color: rgb(43, 145, 175);
+    text-align: right;
+}
+
+.code
+{
+    border-width: 0px;
+    color: #F5F5F5;
+    width: 100%;
+    overflow-x: auto !important;
+}
+
+.keyword
+{
+    color: rgb(43, 145, 175);
+}
+
+.string
+{
+    color: rgb(214, 157, 133);
+}
+
+.comment
+{
+    color: rgb(67, 166, 66);
+}
+
+.code .title
+{
+    color: rgb(78, 201, 176);
+}

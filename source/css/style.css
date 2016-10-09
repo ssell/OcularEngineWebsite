@@ -60,11 +60,10 @@ a, a:hover, a:active, a:visited
     font-weight: 500;
 }
 
-#content_body
+.content_body
 {
     margin: 0 auto;
     margin-top: 30px;
-    margin-bottom: 160px;
 
     padding: 30px;
 
@@ -75,7 +74,7 @@ a, a:hover, a:active, a:visited
 
 #footer
 {
-   position:absolute;
+   padding-top: 120px;
    bottom: 0;
 
    width: 100%;

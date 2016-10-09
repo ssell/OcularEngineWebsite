@@ -1,12 +1,12 @@
-function loadMarkdown(name)
+function loadMarkdown(name, id = "markdown")
 {
     var path = "/source/markdown/" + name + ".md";
     
-    $.ajax({ url: path, success: function(content)
+    $.ajax({ url: path, async: false, success: function(content)
     {
         var converter = new showdown.Converter();
         var html = converter.makeHtml(content);
 
-        $("#markdown").append(html);
+        $("#" + id).append(html);
     }});
 }

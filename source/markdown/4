@@ -3,16 +3,15 @@
 
 function loadMarkdown(name, id = "markdown")
 {
+    showdown.setOption('tables', true);
+
     var path = "/source/markdown/" + name + ".md";
     
     $.ajax({ url: path, async: false, success: function(content)
     {
         var converter = new showdown.Converter();
-        converter.setOption('tables', 'true');
-
         var html = converter.makeHtml(content);
 
-        
         $("#" + id).append(html);
     }});
 }

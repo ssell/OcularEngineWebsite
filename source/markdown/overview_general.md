@@ -2,7 +2,7 @@
 
 Collection of features that are expected to be found in any engine, but are not directly related to graphics or rendering. Nearly all of these were implemented before a single line of the graphics library was written.
 
-## Logger
+# Logger
 
 An easy-to-use and versatile logging system is an essential part of any engine, large or small. 
 
@@ -29,7 +29,7 @@ OcularLogger->info("The time is ", hour, ":", minute, ":", second);
 
 Internal logging also makes use of the `OCULAR_INTERNAL_LOG` macro which helps in provided exact Class/Method/Line information which is especially useful for error logging.
 
-## Event System
+# Event System
 
 A simple event system is provided in order to allow for easy communication between disparate systems. Custom events are easy to add, and a number of events are already in use by both the engine and editor.
 
@@ -63,7 +63,7 @@ bool EventReceiver::onEvent(std::shared_ptr<Core::AEvent> event)
 
 Events may either be queued or triggered. A queued event is placed in a queue and then distributed during the next update cycle. A triggered event is distributed immediately to listeners.
 
-## File / Directory 
+# File / Directory 
 
 `File` and `Directory` classes are available for easy, cross-platform navigation of file systems. A number of utility features are available, including: path/name/extension separation, discovering child files/subdirectories, file/directory creation, etc.
 
@@ -88,7 +88,7 @@ else
 }
 ```
 
-## Timing
+# Timing
 
 Time functionality is provided via two different classes: `Clock` and `Timer`.
 
@@ -116,7 +116,7 @@ while(timer.getElapsedMS() < 1000);
 timer.stop();
 ```
 
-## Keyboard / Mouse Input
+# Keyboard / Mouse Input
 
 Keyboard and mouse input is handled via a state system defined in `OcularInput` and input-related events.
 
@@ -149,7 +149,7 @@ else if(OcularInput->isKeyboardKeyDown(keyExclamation))
 
 Distinctions are also made between mainpad and numpad keys.
 
-## Window Creation
+# Window Creation
 
 Window creation is performed in a single call to the central `WindowManager` implementation which can be accessed via `OcularWindows`.
 
@@ -172,11 +172,11 @@ if(OcularWindows->openWindow(descr))
 
 Internally, system specific implementations are provided such as `WindowWin32`. A variety of miscellaneous methods and tasks are associated with these window implementations, including system-level event and input intercepting.
 
-## Utilities
+# Utilities
 
 There are numerous miscellaneous utilities in use throughout the engine. The following are some of the most commonly employed.
 
-### String Utilities
+## String Utilities
 
 A collection of string-based utilities can be found by envoking `OcularString` (or some may be statically accessed via Utils::String). These cover the following common string operations:
 
@@ -198,7 +198,7 @@ std::string str = "1.0 2.0 3.0 4.0";
 vec = OcularString->fromString<Vector4f>(str);
 ```
 
-### Hash Generator
+## Hash Generator
 
 The `HashGenerator` utility provides a simple and efficient means to generate integer hashes from any string. Internally it implements the [FNV-1A](https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function#FNV-1a_hash) algorithm.
 
@@ -210,8 +210,32 @@ Example:
 const std::string str = "Hello World";
 const auto hash = OcularEngine.HashGenerator()->getHash32(str);
 ```
+## UUID
 
-### Endian Operators
+A `UUID` serves as a globally unique identifier for objects within the engine. This uniqueness extends beyond engine runs, and thus serves as the primary identifier for any object.
+
+Simple instantiation is all that is needed to generate a UUID:
+
+```
+UUID uuid;
+```
+
+They can also be copied:
+
+```
+UUID uuidA;
+UUID uuidB = uuidA;
+```
+
+String and integer representations may also be retrieved:
+
+```
+const std::string str = uuid.toString();
+const uint32_t hash32 = uuid.getHash32();
+const uint64_t hash64 = uuid.getHash64();
+```
+
+## Endian Operators
 
 A series of functions are provided under the `Ocular::Utils::EndianOps` namespace to help in converting between big and little endian values. 
 
@@ -230,7 +254,7 @@ We can also convert to whatever the native endianness may be (in which case no a
 uint32_t native = EndianOps::convert(Endianness::Big, Endianness::Native, bigInt);
 ```
 
-### TypeName
+## TypeName
 
 The `TypeName` utility is relatively simple, but is crucial for many key systems. All it does is provide a string representation of any primitive type and most commonly used Ocular classes. 
 
@@ -251,7 +275,7 @@ OCULAR_REGISTER_TYPE(CustomClass);
 OCULAR_REGISTER_TYPE_CUSTOM(CustomClass, "Custom Class");
 ```
 
-### Void Cast
+## Void Cast
 
 Another commonly used helper utility is `void_cast` which, well, casts to/and from `void*`.
 
@@ -266,7 +290,7 @@ float valueB = void_cast<float>(voidp);
 // valueB == 55.0f
 ```
 
-## General Math Library
+# General Math Library
 
 A general purpose math library is provided with support for:
 
@@ -284,7 +308,7 @@ Internally, the general math classes employ the [GLM](http://glm.g-truc.net/) li
 
 As with all other dependencies, GLM is kept completely hidden from outside sources so that it is only a dependency for the core library.
 
-## Psuedo-Random Number Generators
+# Psuedo-Random Number Generators
 
 Access to a proper PRNG is important for both general-purpose and graphics related programming. Since not all PRNGs are created equal, and some better suit certain tasks than others, a number of implementations are available.
 
@@ -294,7 +318,7 @@ These include:
 * Tiny Mersenne Twister (MT127)
 * Well Equidistributed Long-Period Linear (WELL512)
 * Complementary-Multiply-With-Carry (CMWC131104)
-* XorSHift (XOR96)
+* XorShift (XOR96)
 
 All PRNGs implement the same interface, and thus can be swapped out for one another easily.
 
@@ -307,9 +331,9 @@ auto rand = prng.next(0, 100);
 OcularLogger->info("Random value between 0 and 100: ", rand);
 ```
 
-## Noise Generators
+# Noise Generators
 
-Coherent noise is another important tool used by graphics programmers, and so naturally Ocular provides multiple noise implementations. Like the PRNGs, these all inherit from the same base class and can be easily swapped out.
+Coherent noise is another important tool used by graphics programmers, and so naturally Ocular provides multiple noise implementations. Like the PRNGs, these all inherit from the same base class and can be easily swapped out. The following implementations are currently available: 
 
 * Perlin Noise
 * Simplex Noise
@@ -326,7 +350,7 @@ auto value = noise.getValue(x, y);
 
 As noise generators are most commonly used in conjuction with 2D textures, there is a special texture class called `NoiseTexture2D` that automatically generates textures using a provided noise instance.
 
-## Bounds and Intersections
+# Bounds and Intersections
 
 While Ocular makes no attempts (yet) to implement a physics engine, basic intersection testing remains a cruical tool for many rendering and effect algorithms. The following intersection geometries are available:
 

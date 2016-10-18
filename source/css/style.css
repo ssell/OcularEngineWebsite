@@ -9,6 +9,8 @@ html, body
     background-attachment: fixed;
 
     color: #e6e6e6;
+
+    text-align: justify;
 }
 
 h1,h2,h3 { color: #fff; }
@@ -16,10 +18,42 @@ h1 { font-size: 22px; }
 h2 { font-size: 20px; }
 h3 { font-size: 18px; }
 
-.blue
+sup { color: rgba(78, 201, 171, 1.0); }
+
+table, th, td
 {
-    color: #3291c1;
+    border: 1px solid rgba(35, 35, 35, 0.2);
+    border-collapse: collapse;
+
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
+table
+{
+    margin: 0pt auto;
+}
+
+th
+{ 
+    text-align: center;
+    background-color: rgba(35, 35, 35, 0.2);
+}
+
+tr
+{
+    background-color: rgba(45, 45, 45, 0.2);
+}
+
+tr:nth-child(even)
+{
+    background-color: rgba(35, 35, 35, 0.2);
+}
+
+.blue { color: #3291c1; }
+.white { color: #e6e6e6; }
+.green { color: rgba(78, 201, 171, 1.0); }
 
 a, a:hover, a:active, a:visited
 {

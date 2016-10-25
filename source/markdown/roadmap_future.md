@@ -7,6 +7,7 @@
 * Editor Play Mode
 * Tiled Forward Renderer
 * Multi-Pass Materials
+* Installer 
 
 # Future (>6 Months)
 

@@ -1,6 +1,6 @@
 # Overview
 
-_(Updated October 3, 2016)_
+_(Updated October 25, 2016)_
 
 The following roadmap details new features planned for Ocular. Features are split into three different categories: currently in progress, near future, and future.
 

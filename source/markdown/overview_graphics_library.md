@@ -261,8 +261,6 @@ They may also be created programmatically or via the Material Editor tool.
 auto material = OcularGraphics->createMaterial();
 ```
 
-See the [Editor Overview](/docs/overview/overview_editor.html) for information of the Material Editor tool.
-
 ## Modification
 
 Brief example showing the main methods for material modification:

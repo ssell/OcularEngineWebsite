@@ -7,6 +7,7 @@
 * Point Light
 * Directional Light
 * Phong BRDF
+* Enhanced Default Shader
 
 ## In Progress
 
@@ -17,6 +18,5 @@
 * Spot Light
 * Blinn-Phong BRDF
 * Ashikhmin-Shirley BRDF
-* Enhanced Default Shader
-* Occlusion Culling (CHC++)
+* Occlusion Culling ([CHC++](https://www.cg.tuwien.ac.at/research/publications/2008/mattausch-2008-CHC/mattausch-2008-CHC-draft.pdf))
 * Volumetric Shadows

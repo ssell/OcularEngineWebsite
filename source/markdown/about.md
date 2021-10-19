@@ -8,7 +8,7 @@ The phrase 'experimental' is used for a number of reasons. Primary of these is t
 
 It is also experimental because at times development may stray outside of the bounds of a pure rendering engine. While the overarching task will always be to develop a modern renderer, there has been past work on features that are not strictly graphics-related. These have included: input/output, editors, object logic, etc. While these are a natural part of a complete game engine, that is not the goal of Ocular.
 
-Ocular is currently the part-time project of [one developer](http://www.vertexfragment.com/home/about.html), and so progresses accordingly.
+Ocular is currently the part-time project of [one developer](https://www.vertexfragment.com/about/), and so progresses accordingly.
 
 ## About this Website
 

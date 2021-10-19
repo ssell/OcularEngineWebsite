@@ -3,7 +3,7 @@
 
 function loadMarkdown(name, id = "markdown")
 {
-    var path = "/source/markdown/" + name + ".md";
+    var path = "/ocular-engine/source/markdown/" + name + ".md";
     
     $.ajax({ url: path, async: false, success: function(content)
     {

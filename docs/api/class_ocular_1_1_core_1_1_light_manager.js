@@ -1,0 +1,27 @@
+var class_ocular_1_1_core_1_1_light_manager =
+[
+    [ "LightManager", "class_ocular_1_1_core_1_1_light_manager.html#a385399894c1a4978586a6aa5bdb92f84", null ],
+    [ "~LightManager", "class_ocular_1_1_core_1_1_light_manager.html#a90262b167d95d8663479b2ca87e57792", null ],
+    [ "buildGPUBuffer", "class_ocular_1_1_core_1_1_light_manager.html#a3d536ef0cb1f2e7beeb59b7015f6cc39", null ],
+    [ "fillGPUBuffer", "class_ocular_1_1_core_1_1_light_manager.html#ae01b72bca883404814e3b0bd52c627d5", null ],
+    [ "getAmbientLightColor", "class_ocular_1_1_core_1_1_light_manager.html#a385a8b2699f3fd8407ef9cdd01e4d378", null ],
+    [ "getAmbientLightIntensity", "class_ocular_1_1_core_1_1_light_manager.html#a80af88db00b027ffada7d73ca5fd8807", null ],
+    [ "getVisibleLights", "class_ocular_1_1_core_1_1_light_manager.html#a901233c46c45ed93389567f41caf5a8d", null ],
+    [ "isDirectionalLightVisible", "class_ocular_1_1_core_1_1_light_manager.html#a7ebe2852fea38e9de1b3fff115845624", null ],
+    [ "isLightVisible", "class_ocular_1_1_core_1_1_light_manager.html#ae7405c225b62a7ad6d2cd68b2609232f", null ],
+    [ "isPointLightVisible", "class_ocular_1_1_core_1_1_light_manager.html#adb02fbc5acf69ef4c5ac26f465aac0ef", null ],
+    [ "isSpotlightVisible", "class_ocular_1_1_core_1_1_light_manager.html#aa795831f2ce288f6034aa1e38136ffa0", null ],
+    [ "registerLightSource", "class_ocular_1_1_core_1_1_light_manager.html#a702d7613f5e123d5c85d052e6f1afc60", null ],
+    [ "setAmbientLightColor", "class_ocular_1_1_core_1_1_light_manager.html#ab09e4447e28e52bb8ca85772e5565d78", null ],
+    [ "setAmbientLightIntensity", "class_ocular_1_1_core_1_1_light_manager.html#a157b197ddc826824c3e6cf98bb28b731", null ],
+    [ "unregisterLightSource", "class_ocular_1_1_core_1_1_light_manager.html#aef386405aabe017caf635e351602fb50", null ],
+    [ "updateLights", "class_ocular_1_1_core_1_1_light_manager.html#aee65d78d0e3c482b112456530df7ed27", null ],
+    [ "updateUUID", "class_ocular_1_1_core_1_1_light_manager.html#a134d0ce0313904bfc11f040a4c78cbd0", null ],
+    [ "LightSource", "class_ocular_1_1_core_1_1_light_manager.html#a971d7f7b2685acda99cf00ca1c51e00d", null ],
+    [ "m_BufferLightCapacity", "class_ocular_1_1_core_1_1_light_manager.html#a1d00086bb80de7a6d6750f712ffd33ec", null ],
+    [ "m_GPUAmbientLight", "class_ocular_1_1_core_1_1_light_manager.html#aa552f4ae460de5ea1d3693e5bf9eb3da", null ],
+    [ "m_GPUBuffer", "class_ocular_1_1_core_1_1_light_manager.html#a6de547d39a585e1c90c890ae380d091e", null ],
+    [ "m_GPULights", "class_ocular_1_1_core_1_1_light_manager.html#a1b99d7c8041d6dc0bbed62d03aab2ccc", null ],
+    [ "m_Lights", "class_ocular_1_1_core_1_1_light_manager.html#a7a3bd273498985ac6617198b147aec03", null ],
+    [ "m_PrevNumVisible", "class_ocular_1_1_core_1_1_light_manager.html#a07e2631f16a5757b32983c190dcfd48c", null ]
+];

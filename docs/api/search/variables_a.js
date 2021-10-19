@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['m_5fclass',['m_Class',['../class_ocular_1_1_core_1_1_object.html#a4ddf21fd7fc514a3bad3154ca5b544a5',1,'Ocular::Core::Object']]],
+  ['m_5fd3dswapchain',['m_D3DSwapChain',['../class_ocular_1_1_graphics_1_1_d3_d11_render_texture.html#aa89e846d33b078935bccbc24ad679458',1,'Ocular::Graphics::D3D11RenderTexture']]],
+  ['m_5fdebugshapes',['m_DebugShapes',['../class_ocular_1_1_graphics_1_1_debug.html#ae14311db1cb17575272402e013dae682',1,'Ocular::Graphics::Debug']]],
+  ['m_5fisselected',['m_IsSelected',['../class_ocular_1_1_editor_1_1_gizmo.html#a0396260c23457e57387b42aa791c4a9e',1,'Ocular::Editor::Gizmo']]],
+  ['m_5flastrequest',['m_LastRequest',['../class_ocular_1_1_core_1_1_resource_details.html#a60ee9674acbf57b620724e904eabc79e',1,'Ocular::Core::ResourceDetails']]],
+  ['m_5flayer',['m_Layer',['../class_ocular_1_1_core_1_1_scene_object.html#ae4726b3de067e48258143ffc1833c2fe',1,'Ocular::Core::SceneObject']]],
+  ['m_5flayoutright',['m_LayoutRight',['../class_ocular_1_1_editor_1_1_property_widget.html#a5f204d7dc73969d9d06e0e1198b49d62',1,'Ocular::Editor::PropertyWidget']]],
+  ['m_5fmaterial',['m_Material',['../class_ocular_1_1_graphics_1_1_debug.html#a00f7a5535c1925d96635fbdc5d8132af',1,'Ocular::Graphics::Debug']]],
+  ['m_5fmaterialnormal',['m_MaterialNormal',['../class_ocular_1_1_editor_1_1_axis_gizmo_renderable.html#a7b2575eeba9805cfdaf58620a923202c',1,'Ocular::Editor::AxisGizmoRenderable']]],
+  ['m_5fmaterialselected',['m_MaterialSelected',['../class_ocular_1_1_editor_1_1_axis_gizmo_renderable.html#a11bb858262fa4ed80bc1328affdde28f',1,'Ocular::Editor::AxisGizmoRenderable']]],
+  ['m_5fname',['m_Name',['../class_ocular_1_1_core_1_1_object.html#a4a839df34f01590ee328e3513288bb92',1,'Ocular::Core::Object']]],
+  ['m_5fnewobjects',['m_NewObjects',['../class_ocular_1_1_core_1_1_i_scene_tree.html#a29b77e3d94d2241caa4052d3c1834ca2',1,'Ocular::Core::ISceneTree']]],
+  ['m_5fnumberofrequests',['m_NumberOfRequests',['../class_ocular_1_1_core_1_1_resource_details.html#aee318c2e31582477e17433859b17708e',1,'Ocular::Core::ResourceDetails']]],
+  ['m_5fparent',['m_Parent',['../class_ocular_1_1_core_1_1_a_routine.html#a9b93ad436c630c2b67e9685949538b9d',1,'Ocular::Core::ARoutine']]],
+  ['m_5fpriority',['m_Priority',['../class_ocular_1_1_core_1_1_a_routine.html#ad13d67ceb56634bd24472f643140fab3',1,'Ocular::Core::ARoutine']]],
+  ['m_5ftransform',['m_Transform',['../class_ocular_1_1_graphics_1_1_debug.html#a30db79ee39902503bb6231698eecdfb3',1,'Ocular::Graphics::Debug']]],
+  ['m_5funiformdata',['m_UniformData',['../class_ocular_1_1_graphics_1_1_uniform_buffer.html#a64612c2bc28b65dbf850145f7dcbaac4',1,'Ocular::Graphics::UniformBuffer']]],
+  ['m_5funiformdatasize',['m_UniformDataSize',['../class_ocular_1_1_graphics_1_1_uniform_buffer.html#ae62516da5d11e83be05bc1409a3e6bbc',1,'Ocular::Graphics::UniformBuffer']]],
+  ['m_5funiforms',['m_Uniforms',['../class_ocular_1_1_graphics_1_1_uniform_buffer.html#a2d7fb039343b6dcabc9b7d219e1559ea',1,'Ocular::Graphics::UniformBuffer']]],
+  ['m_5fvariable',['m_Variable',['../class_ocular_1_1_editor_1_1_property_widget.html#a926a2bc031ffef905c4e9ca999decb9d',1,'Ocular::Editor::PropertyWidget']]],
+  ['maxdatasize',['MaxDataSize',['../class_ocular_1_1_graphics_1_1_uniform.html#a180e15befce3546ad0ec1bfa5d9b54a7',1,'Ocular::Graphics::Uniform']]],
+  ['mesh',['mesh',['../struct_ocular_1_1_graphics_1_1_debug_shape.html#aacd66e2187798f7469b2957c1cb22989',1,'Ocular::Graphics::DebugShape']]],
+  ['mipmaps',['mipmaps',['../struct_ocular_1_1_graphics_1_1_texture_descriptor.html#af4c2082959345c073effa9fa4fcccd8e',1,'Ocular::Graphics::TextureDescriptor']]],
+  ['morton',['morton',['../class_ocular_1_1_core_1_1_b_v_h_scene_node.html#aaf675659ef5a1309a77cc07b395a8202',1,'Ocular::Core::BVHSceneNode']]]
+];

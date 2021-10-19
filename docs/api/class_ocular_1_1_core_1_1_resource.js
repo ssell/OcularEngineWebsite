@@ -1,0 +1,28 @@
+var class_ocular_1_1_core_1_1_resource =
+[
+    [ "Resource", "class_ocular_1_1_core_1_1_resource.html#a090fe7d74a0ffcc92f1fddcd8dac2906", null ],
+    [ "Resource", "class_ocular_1_1_core_1_1_resource.html#a7335b2b30deee2021ff16bebd5cfdda3", null ],
+    [ "~Resource", "class_ocular_1_1_core_1_1_resource.html#af2e76ba791cd19f50dd25d3e270f2992", null ],
+    [ "forceLoad", "class_ocular_1_1_core_1_1_resource.html#a2c6adf75af396cde7e6c889ac79b20f7", null ],
+    [ "getMappingName", "class_ocular_1_1_core_1_1_resource.html#aaf57e36017801065e8a1fc3230d88033", null ],
+    [ "getMetadata", "class_ocular_1_1_core_1_1_resource.html#a10b1a834fe4217aa6ae74435ec54e7e0", null ],
+    [ "getName", "class_ocular_1_1_core_1_1_resource.html#aed1ad8d973fdf49476aeb88b14440ea1", null ],
+    [ "getResourceType", "class_ocular_1_1_core_1_1_resource.html#af37d699e093da3ad59817776498bbe56", null ],
+    [ "getSize", "class_ocular_1_1_core_1_1_resource.html#a59db90926f00040c7df8d91cba10131a", null ],
+    [ "getSourceFile", "class_ocular_1_1_core_1_1_resource.html#aecbf0c26579c726d7b7a0d604bcea635", null ],
+    [ "isInMemory", "class_ocular_1_1_core_1_1_resource.html#a2a7cca86d369754b148ad87bd17b366a", null ],
+    [ "setIsInMemory", "class_ocular_1_1_core_1_1_resource.html#a8c106ca3d5cb8dd70b3fe31210eab2e0", null ],
+    [ "setMappingName", "class_ocular_1_1_core_1_1_resource.html#a82a2d1cca7b0ef5a5465989d3f53b721", null ],
+    [ "setMetadata", "class_ocular_1_1_core_1_1_resource.html#a3009cf7d1c9044913b5626b64f8b6e9e", null ],
+    [ "setName", "class_ocular_1_1_core_1_1_resource.html#a2e4776959d9ec7344aa0e866ce392449", null ],
+    [ "setSize", "class_ocular_1_1_core_1_1_resource.html#a9b820c31664b67ede3623767986c6fb3", null ],
+    [ "setSourceFile", "class_ocular_1_1_core_1_1_resource.html#ac62c3c3e62d592567a8d9e1c05ea5457", null ],
+    [ "unload", "class_ocular_1_1_core_1_1_resource.html#a733d64e6b074793314e774c5e63375f7", null ],
+    [ "m_IsInMemory", "class_ocular_1_1_core_1_1_resource.html#a84827300b003abc0db91078a048f9a51", null ],
+    [ "m_MappingName", "class_ocular_1_1_core_1_1_resource.html#a7084a6be72e2f65ba74caa5710550f3e", null ],
+    [ "m_Metadata", "class_ocular_1_1_core_1_1_resource.html#aeb8197f346e4a6fcda565c2dfd289394", null ],
+    [ "m_Name", "class_ocular_1_1_core_1_1_resource.html#a6692713546cf15610d3281362d0b9871", null ],
+    [ "m_SizeInMemory", "class_ocular_1_1_core_1_1_resource.html#adfa3eed314bcdf1dcf9952bb3846e412", null ],
+    [ "m_SourceFile", "class_ocular_1_1_core_1_1_resource.html#a46be77cec5e008f100a81b00c34ba481", null ],
+    [ "m_Type", "class_ocular_1_1_core_1_1_resource.html#a5661b586a506f1c4cf1a95fb8154f917", null ]
+];

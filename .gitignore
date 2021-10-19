@@ -27,7 +27,7 @@ coverage
 build/Release
 
 # Doxygen documentation
-docs/api
+#docs/api
 
 # Dependency directories
 node_modules

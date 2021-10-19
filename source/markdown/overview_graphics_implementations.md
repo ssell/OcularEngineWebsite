@@ -1,6 +1,6 @@
 # Graphics Implementations
 
-The graphics library described in the [Graphics Library Overview](/docs/overview/overview_graphics_library.html) is a generic API, and does nothing without an implementation. Below, the available implementations are briefly described.
+The graphics library described in the [Graphics Library Overview](/ocular-engine/docs/overview/overview_graphics_library.html) is a generic API, and does nothing without an implementation. Below, the available implementations are briefly described.
 
 Currently, all implementations are provided as static libraries, but this functionality is slotted to be changed to a dynamic approach to allow for easier development, as well as potential runtime API swaps.
 
@@ -42,7 +42,7 @@ Example:
 
 # OpenGL 4
 
-_Feature not yet implemented. Expected in a [future release](/roadmap.html)._
+_Feature not yet implemented. Expected in a [future release](/ocular-engine/roadmap.html)._
 
 # Other
 
